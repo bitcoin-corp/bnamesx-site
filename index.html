@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bNamesX: your name, on chain</title>
+    <link rel="canonical" href="https://bnamesx.com/" />
+    <meta name="description" content="bNamesX: find, claim and verify names on Bitcoin. Short on-chain names for people, and verified names for businesses, tied to a bWalletX identity key." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bnamesx.com/" />
+    <meta property="og:site_name" content="bNamesX" />
+    <meta property="og:title" content="bNamesX. Your name, on chain." />
+    <meta property="og:description" content="Short on-chain names for people, verified names for businesses, tied to your bWalletX." />
+    <meta property="og:image" content="https://bnamesx.com/og-bnamesx-v1.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bWalletX" />
+    <meta name="twitter:image" content="https://bnamesx.com/og-bnamesx-v1.png" />
+    <meta name="theme-color" content="#0b0a09" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav aria-label="Main">
+        <a class="brand" href="/" aria-label="bNamesX home"><svg viewBox="23 8 74 100" aria-hidden="true"><mask id="hb"><rect width="140" height="140" fill="#fff"/><circle cx="60" cy="72" r="15" fill="#000"/></mask><g fill="#F5B800" mask="url(#hb)"><polygon points="45,12 45,72 27,72 27,30"/><circle cx="60" cy="72" r="33"/></g></svg><span>bNames<i class="x">X</i></span></a>
+        <div class="links"><a class="hide-s" href="#how">How it works</a><a class="hide-s" href="#business">Businesses</a><a href="#status">Status</a></div>
+      </nav>
+    </div>
+
+    <main>
+      <div class="wrap">
+        <header class="hero">
+          <div>
+            <p class="eyebrow">bNamesX · names for bWalletX</p>
+            <h1>Your name,<br /><span>on chain.</span></h1>
+            <p class="lede">One short name that points to you: to pay you, message you and prove it's really you. Owned by your wallet, not rented from a website.</p>
+            <div class="ctas">
+              <a class="btn gold" href="https://web.bwalletx.com/m/ask-b?ask=I%20want%20to%20claim%20a%20name%20on%20bNamesX">Ask b for a name</a>
+              <a class="btn ghost" href="https://bwalletx.com/get?from=bnamesx">Get bWalletX</a>
+            </div>
+            <p class="note">bNamesX is a holding page for now. Lookup and claiming here are coming; b can take a name order in your wallet today.</p>
+          </div>
+          <div>
+            <div class="thread" aria-hidden="true">
+              <div class="top"><strong>alice</strong><span class="mode">Verified</span></div>
+              <div class="msg in">Pay: alice@bwalletx.com</div>
+              <div class="msg in">Message: $alice</div>
+              <div class="msg out">Owner key matches. Signed and public.</div>
+              <div class="safety">Name log · bound to identity key · 03a1…9f2c</div>
+            </div>
+            <p class="illus">Illustration of the planned design.</p>
+          </div>
+        </header>
+      </div>
+
+      <section class="band" aria-labelledby="what">
+        <div class="wrap">
+          <p class="eyebrow">What it is</p>
+          <h2 id="what">Names you own, that point to a key.</h2>
+          <p class="sub">A name on bNamesX is an on-chain record held in your wallet. It points to your identity key, so apps can find you and check it's you.</p>
+          <div class="grid">
+            <div><h3>Yours, not rented</h3><p>The name sits in your wallet like any other coin. No yearly renewal from a company that can take it back.</p></div>
+            <div><h3>Points to your key</h3><p>You sign a binding from the name to your identity key. Anyone can check it without asking us.</p></div>
+            <div><h3>Pay and message</h3><p>Send money or a message to a name instead of a long address.</p></div>
+            <div><h3>A public log</h3><p>Every binding and change is written to a public name log, so a swap can't happen quietly.</p></div>
+            <div><h3>Brand names held back</h3><p>Well-known brand names are kept for their real owners. Countries and cities are kept as community rooms.</p></div>
+            <div><h3>Works beyond us</h3><p>Built on the open OpNS name standard, so other BSV wallets and apps can read the same names.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band" id="how" aria-labelledby="howh">
+        <div class="wrap">
+          <p class="eyebrow">How it works</p>
+          <h2 id="howh">Find it, claim it, bind it.</h2>
+          <ol class="steps">
+            <li><div><h3>Find a name</h3><p>Search for a name and see whether it's free, held, or kept back for a brand or a place.</p></div></li>
+            <li><div><h3>Claim it in bWalletX</h3><p>Pay the listed price and the name arrives in your wallet. No browser mining, no waiting at your desk.</p></div></li>
+            <li><div><h3>Bind it to your key</h3><p>Your wallet signs a binding from the name to your identity key, and it goes on the public log.</p></div></li>
+            <li><div><h3>Use it everywhere</h3><p>Apps look the name up and get your key, to pay you, message you or check a signature.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="band" id="business" aria-labelledby="bh">
+        <div class="wrap">
+          <p class="eyebrow">For businesses</p>
+          <h2 id="bh">Prove your business key is really yours.</h2>
+          <p class="sub">Customers should be able to check that a payment request or a signed message really came from you, not a look-alike.</p>
+          <div class="grid two">
+            <div><h3>Verify with your domain</h3><p>Add a short record to your website's DNS, or a file on your site, that names your business key. We check it, and so can anyone.</p></div>
+            <div><h3>Your brand name, kept for you</h3><p>If your brand's name is held back, verified owners can claim it for a small fee.</p></div>
+            <div><h3>A verified badge in bWalletX</h3><p>Requests signed with a verified key show your verified name in the wallet.</p></div>
+            <div><h3>Key changes stay visible</h3><p>Rotate a key and the change shows on the public log, so customers aren't caught out.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band" id="status" aria-labelledby="sth">
+        <div class="wrap">
+          <p class="eyebrow">Honest status</p>
+          <h2 id="sth">What's live today, and what isn't.</h2>
+          <ul class="status">
+            <li><span class="tag live">Live</span><span class="t">bWalletX, the wallet that holds your names<small>Web, Chrome extension, iPhone and Android.</small></span></li>
+            <li><span class="tag live">Live</span><span class="t">Owner-signed name bindings and the public name log</span></li>
+            <li><span class="tag live">Live</span><span class="t">Order a name from b in bWalletX</span></li>
+            <li><span class="tag soon">Coming</span><span class="t">Name search and claiming on bnamesx.com</span></li>
+            <li><span class="tag soon">Coming</span><span class="t">Business verification by DNS or website file</span></li>
+            <li><span class="tag soon">Coming</span><span class="t">Verified badges in bWalletX</span></li>
+            <li><span class="tag soon">Coming</span><span class="t">Brand claims for verified owners</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="final" aria-labelledby="fh">
+        <div class="wrap">
+          <h2 id="fh">Want a name?</h2>
+          <p>Tell b, the agent in your bWalletX, which name you'd like.</p>
+          <div class="ctas">
+            <a class="btn gold" href="https://web.bwalletx.com/m/ask-b?ask=I%20want%20to%20claim%20a%20name%20on%20bNamesX">Ask b for a name</a>
+            <a class="btn ghost" href="https://bwalletx.com/get?from=bnamesx">Get bWalletX</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="wrap">
+      <footer><span>bNames<i class="x">X</i> · Part of <a href="https://bwalletx.com">bWalletX</a> · The Bitcoin Corporation Ltd</span><span><a href="https://bwalletx.com/b-family">The b family</a> · <a href="https://bwalletx.com/privacy.html">Privacy</a></span></footer>
+    </div>
+  </body>
+</html>
